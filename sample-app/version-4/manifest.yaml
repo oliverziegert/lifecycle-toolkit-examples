@@ -16,7 +16,7 @@ spec:
   template:
     metadata:
       labels:
-        app.kubernetes.io/version: 0.1.2
+        app.kubernetes.io/version: 0.1.4
 
 ---
 apiVersion: apps/v1
@@ -29,7 +29,7 @@ spec:
     metadata:
       labels:
         keptn.sh/pre-deployment-tasks: pre-deployment-check-frontend
-        app.kubernetes.io/version: 0.1.2
+        app.kubernetes.io/version: 0.1.4
 
 ---
 apiVersion: apps/v1
@@ -42,7 +42,7 @@ spec:
     metadata:
       labels:
         keptn.sh/pre-deployment-tasks: pre-deployment-check-frontend
-        app.kubernetes.io/version: 0.1.2
+        app.kubernetes.io/version: 0.1.4
 
 ---
 apiVersion: apps/v1
@@ -55,7 +55,7 @@ spec:
     metadata:
       labels:
         keptn.sh/pre-deployment-tasks: pre-deployment-check-frontend
-        app.kubernetes.io/version: 0.1.2
+        app.kubernetes.io/version: 0.1.4
 
 ---
 apiVersion: apps/v1
@@ -68,7 +68,7 @@ spec:
     metadata:
       labels:
         keptn.sh/pre-deployment-tasks: pre-deployment-check-frontend
-        app.kubernetes.io/version: 0.1.2
+        app.kubernetes.io/version: 0.1.4
 
 ---
 apiVersion: apps/v1
@@ -81,4 +81,4 @@ spec:
     metadata:
       labels:
         keptn.sh/pre-deployment-tasks: pre-deployment-check-frontend
-        app.kubernetes.io/version: 0.1.2
+        app.kubernetes.io/version: 0.1.4
