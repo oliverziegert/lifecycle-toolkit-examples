@@ -5,4 +5,4 @@ metadata:
   namespace: podtato-kubectl
 spec:
   type: prometheus
-  targetServer: "http://prometheus-k8s.monitoring.svc.cluster.local:9090"
+  targetServer: "http://prometheus-kube-prometheus-prometheus.prometheus.svc.cluster.local:9090"
