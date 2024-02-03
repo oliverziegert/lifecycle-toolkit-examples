@@ -61,7 +61,7 @@ metadata:
   name: podtato-head-left-leg
   namespace: podtato-kubectl
 spec:
-  replicas: 0
+  replicas: 1
   template:
     metadata:
       labels:
@@ -84,7 +84,7 @@ metadata:
   name: podtato-head-right-leg
   namespace: podtato-kubectl
 spec:
-  replicas: 0
+  replicas: 1
   template:
     metadata:
       labels:

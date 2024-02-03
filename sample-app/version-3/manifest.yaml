@@ -10,6 +10,18 @@ metadata:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+  name: podtato-head-frontend
+  namespace: podtato-kubectl
+spec:
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/version: 0.1.0
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
   name: podtato-head-hat
   namespace: podtato-kubectl
 spec:
